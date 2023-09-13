@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()  {  cout<< "H"<<endl;
+               cout<< "E"<<endl<<endl;
+
+               cout<< "I"<<endl;
+               cout<< "S"<<endl<<endl;
+
+
+               cout<< "ALI"<<endl;
+
+             }
