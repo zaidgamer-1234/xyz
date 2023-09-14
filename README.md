@@ -5,7 +5,7 @@
 
 - 💬 Ask me about **GAMES**
 
-- 📫 How to reach me **zaidamjad29@gmail.com**
+- 📫 How to reach me **h.zaidamjad29@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
