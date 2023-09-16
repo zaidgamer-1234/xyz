@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()  {
+
+cout<<"                         /\\     "<<endl;
+cout<<"                     ___/__\\___    "<<endl;
+cout<<"                  //    |  |    \\    "<<endl;
+cout<<"                 =======.  .=======    "<<endl;
+cout<<"                        ||||      "<<endl;
+
+}
+                   
