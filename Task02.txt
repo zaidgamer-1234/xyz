@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+main() {
+
+cout<<"Enter weight in pounds: ";
+double pounds;
+cin>>pounds;
+
+int kgs=pounds*0.45;
+
+cout<<pounds<<" pounds is equal to "<<kgs<<" kilograms.";}
