@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+main() {
+
+cout<<"Enter the Name of the Person: ";
+
+string name;
+
+cin>>name;
+
+cout<<"Enter the target weight loss in kilograms: ";
+
+float weight_loss;
+
+cin>>weight_loss;
+
+int calories=4000;
+
+
+float number_of_days= 15*weight_loss;
+
+cout<< name <<" will need "<< number_of_days <<" days to lose " << weight loss << " kg of weight by following the doctor's suggestions";
+} 
