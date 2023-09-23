@@ -2,36 +2,13 @@
 using namespace std;
 
 main() {
+float degrees;
+cout<<"Enter the number of sides of the polygon: ";
+int sides_of_polygon;
+cin>>sides_of_polygon;
 
-cout<<"Enter your name: ";
-string name;
-cin>>name
+int sum_of_internal_angles = (sides_of_polygon-2) * 180;
 
-cout<<"Enter your roll number: ";
-int roll_number;
-cin>>roll_number;
+cout<<"The sum of internal angles of a " <<sides_of_polygon << "-sided polygon is: "<<sum_of_internal_angles<<" degrees" ;
 
-
-
-cout<<"Enter your aggregate: ";
-float aggregate;
-cin>>aggregate;
-
-
-
-cout<<"Enter your section: ";
-string section;
-cin>>section;
-
-cout<<"Student Information:";
-
-cout<<"Name: "<<Name<<endl;
-
-cout<<"Roll Number: "<<Roll Number<<endl;
-
-cout<<"Aggregate: "<<Aggregate<<endl;
-
-cout<<"Section: "<<Section<<endl;
 }
-
-
