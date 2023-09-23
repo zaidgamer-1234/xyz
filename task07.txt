@@ -1,0 +1,50 @@
+# include <iostream>
+using namespace std;
+main ()
+{
+string name;
+int adultp;
+int childp;
+int adults;
+int childs;
+float donation;
+float total;
+float donr;
+int remain;
+
+cout<<"Enter the movie name: ";
+cin>>name;
+
+cout<<"Enter the adult ticket price: $";
+cin>>adultp;
+
+cout<<"Enter the child ticket price: $";
+cin>>childp;
+
+cout<<"Enter the number of adult tickets sold: ";
+cin>>adults;
+
+cout<<"Enter the number of child tickets sold: ";
+cin>>childs;
+
+cout<<"Enter the percentage of the amount to be donated to charity: ";
+cin>>donation;
+
+total=(adultp*adults)+(childp*childs);
+
+donr=(total/100)*donation;
+
+remain=total-donr;
+cout<<endl;
+
+cout<<"Movie: "<<name<<endl;
+cout<<"Total amount generated from ticket sales: $"<<total<<endl;
+cout<<"Donation to charity ("<<donation<<"%): $"<<donr<<endl;
+cout<<"Remaining amount after donation: $"<<remain;
+
+
+
+
+ 
+
+}
