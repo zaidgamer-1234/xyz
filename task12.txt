@@ -1,21 +1,18 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
- main() {
-cout<<"                           *          *          *  "endl;
-cout<<"                            *          *          *  "endl;
-cout<<"                             *          *          *  "endl;
-cout<<"                            *          *          *   "endl;
-cout<<"                           *          *          *   "endl;
-cout<<"                            *          *          *   "endl;
-cout<<"                             *          *          *   "endl;
-cout<<"                      --------------------------------------"endl;
-cout<<"                       *                                  *  "endl;
-cout<<"                        *                                *  "endl;
-cout<<"                         *                              *   "endl;
-cout<<"                          *                            *    "endl;
-cout<<"                           *                          *   "endl;
-cout<<"                             ***********************     "endl;
+main(){
+cout<<"Number of square meters you can paint: ";
 
-cout<<"                         WELCOME  TO F()()|)Y APPLICATION|| "endl;
-}
+int square_meters;cin>>square_meters;
+
+cout<<"Width of the single wall (in meters): ";
+int width;cin>>width;
+
+cout<<"Height of the single wall: ";
+int height;cin>>height;
+
+int number_of_walls= (square_meters/width)*height;
+
+
+cout<<"Number of walls you can paint: "<<number_of_walls;}
