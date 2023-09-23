@@ -1,25 +1,68 @@
-#include <iostream>
+# include <iostream>
 using namespace std;
+main ()
+{
+int num1;
+int num2;
+int num3;
+int num4;
+int num5;
+int num6;
+int num7;
+int num8;
+int num9;
+int num10;
+int num11;
+int num12;
+int num13;
+int num14;
+int num15;
+int add;
+int mul;
+int sub;
+int add2;
+int final;
 
- main()  {
+cout<<"Number 1: ";
+cin>>num1;
+cout<<"Number 2: ";
+cin>>num2;
+cout<<"Number 3: ";
+cin>>num3;
+cout<<"Number 4: ";
+cin>>num4;
+cout<<"Number 5: ";
+cin>>num5;
+cout<<"Number 6: ";
+cin>>num6;
+cout<<"Number 7: ";
+cin>>num7;
+cout<<"Number 8: ";
+cin>>num8;
+cout<<"Number 9: ";
+cin>>num9;
+cout<<"Number 10: ";
+cin>>num10;
+cout<<"Number 11: ";
+cin>>num11;
+cout<<"Number 12: ";
+cin>>num12;
+cout<<"Number 13: ";
+cin>>num13;
+cout<<"Number 14: ";
+cin>>num14;
+cout<<"Number 15: ";
+cin>>num15;
 
+addition=num1+num2+num3+num4+num5;
 
-cout<<"            ............          00000   00000             ..............
-cout<<"             ...........         0     0 0     0            .............
-cout<<"              ..........            000  0     0            ............
-cout<<"               .........          00     0     0            ...........
-cout<<"                ........         000000   00000  th         ..........
-cout<<"                 .......     -------------------------      .........
-cout<<"                  ......      C  E  N  T  U  R   Y          ........
-cout<<"                   .....     -------------------------      .......
-cout<<"                    ....     00000 00000 0   0 00000        ......
-cout<<"                     ...       0   0      0 0    0          .....
-cout<<"                      ..       0   00000   0     0          ...
-cout<<"                       .       0   0      0 0    0          ..
-cout<<"                      00       0   00000 0   0   0          00
-cout<<"                      ||                                    ||
-cout<<"                    __  __                               ___  ___ 
-cout<<"                   |      |                             |        |
-cout<<"                   |      |                             |        |
-cout<<"            00000000000000000000000             0000000000000000000000000   
+multiplication=num6*num7*num8*num9*num10;
+
+subsubtraction=num11-num12-num13-num14-num15;
+
+add=addition+multiplication;
+
+final=add-subtraction;
+
+cout<<"The final result is: "<<final;
 }
